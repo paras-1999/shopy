@@ -1,38 +1,142 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
+* {
+  font-family: 'Courier Prime', monospace;
+  letter-spacing: 2px;
+  color: #E84855;
+
+}
+
+.title {
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  font-size: 5em;
+  color: #E84855;
+
+}
+
+h1 {
+  color: #00D4F0;
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 75px !important;
+  text-align: center;
+
+}
+
+.blurform {
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  width: 34%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h6 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none !important;
+  color: inherit !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.bg1 {
+  background: repeating-linear-gradient(45deg, #00D4F0, #00D4F0 20px, white 20px, white 40px);
+  height: 100vh;
+}
+
+.bg2 {
+  background: repeating-linear-gradient(45deg, #E84855, #E84855 20px, white 20px, white 40px);
+  height: 100vh;
+}
+
+.lsbtn {
+  background: #E84855 !important;
+  border: none !important;
+  height: 55px !important;
+  width: 100% !important;
+  font-size: 30px !important;
+}
+
+.lssbtn {
+  background: #E84855 !important;
+  border: none !important;
+}
+
+.wbtn {
+
+  font-family: 'Bebas Neue', cursive !important;
+  font-size: 17px;
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 6em !important;
+  transition: all .2s;
+  position: absolute;
+  border: none !important;
+  font-family: inherit;
+  font-weight: 500;
+  color: black !important;
+  background-color: white !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  width: 100px;
+  margin-left: 150px;
+}
+
+.wbtn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.wbtn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wbtn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.wbtn::after {
+  background-color: #fff;
+}
+
+.wbtn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.wbtn-animated {
+  animation: moveInBottom 5s ease-out;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.catbtn {
+  color: white !important;
+  border-radius: 20px !important;
+  font-family: 'Bebas Neue', cursive;
 }

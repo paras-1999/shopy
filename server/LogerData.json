@@ -1,0 +1,124 @@
+{
+  "LogerData": [
+    {
+      "name": "paras saxena",
+      "email": "paras@gmail.com",
+      "password": "paras@123",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "pname": "shoe1",
+      "img1": "https://pngimg.com/uploads/running_shoes/running_shoes_PNG5784.png",
+      "img2": "https://www.freeiconspng.com/thumbs/shoes-png/shoes-png-transparent-16.png",
+      "price": "$44",
+      "category": "shoe"
+    },
+    {
+      "pname": "shoe2",
+      "img1": "https://freepngimg.com/thumb/shoes/28530-3-nike-shoes-transparent.png",
+      "img2": "https://freepngimg.com/save/21860-red-shoes/550x550",
+      "price": "$44",
+      "category": "shoe"
+    },
+    {
+      "pname": "shoe3",
+      "img1": "https://pics.clipartpng.com/Orange_Sneakers_PNG_Clipart-391.png",
+      "img2": "https://www.mhraa.com/wp-content/uploads/2014/09/red-running-shoes.png",
+      "price": "$44",
+      "category": "shoe"
+    },
+    {
+      "pname": "shoe4",
+      "img1": "https://www.freeiconspng.com/uploads/green-running-shoes-png-24.png",
+      "img2": "https://cdn.pixabay.com/photo/2017/09/20/11/47/sneakers-2768263_960_720.png",
+      "price": "$44",
+      "category": "shoe"
+    },
+    {
+      "pname": "watch1",
+      "img1": "https://static.wixstatic.com/media/2cd43b_70674f11a01e43f19366ee72aee4b8bb~mv2.png/v1/fill/w_320,h_507,q_90/2cd43b_70674f11a01e43f19366ee72aee4b8bb~mv2.png",
+      "img2": "https://pngimg.com/uploads/watches/watches_PNG9876.png",
+      "price": "$55",
+      "category": "watch"
+    },
+    {
+      "pname": "watch2",
+      "img1": "https://freepngimg.com/thumb/watch/5-2-watch-png-hd.png",
+      "img2": "https://purepng.com/public/uploads/large/wrist-watch-ogx.png",
+      "price": "$55",
+      "category": "watch"
+    },
+    {
+      "pname": "watch3",
+      "img1": "http://freebiescloud.com/wp-content/uploads/2020/10/huawei-watch-gt-2-sports-smart-watch-1-39-inch-amoled-orange-1574132427624.png",
+      "img2": "https://www.pngplay.com/wp-content/uploads/9/Luxury-Watch-PNG-Photos.png",
+      "price": "$55",
+      "category": "watch"
+    },
+    {
+      "pname": "watch4",
+      "img1": "https://static.wixstatic.com/media/2cd43b_616a804d06f54d7e9a59d04574f24243~mv2_d_2288_2288_s_2.png/v1/fill/w_320,h_320,q_90/2cd43b_616a804d06f54d7e9a59d04574f24243~mv2_d_2288_2288_s_2.png",
+      "img2": "https://purepng.com/public/uploads/large/apple-watch-pcq.png",
+      "price": "$55",
+      "category": "watch"
+    },
+    {
+      "pname": "ring1",
+      "img1": "https://purepng.com/public/uploads/large/purepng.com-ringclothingringfashion-jewelry-ring-stone-love-wedding-object-gold-accessory-diamond-jewel-marriage-relationship-wed-marry-jewellery-6315223297631aybx.png",
+      "img2": "https://zeevector.com/wp-content/uploads/2021/02/Diamond-Wedding-Ring-PNG.png",
+      "price": "$66",
+      "category": "ring"
+    },
+    {
+      "pname": "ring2",
+      "img1": "https://www.pngarts.com/files/3/Wedding-Ring-PNG-Image.png",
+      "img2": "https://www.pngkey.com/png/full/20-200823_mens-tungsten-gold-wedding-band-ring.png",
+      "price": "$66",
+      "category": "ring"
+    },
+    {
+      "pname": "ring3",
+      "img1": "https://i.pinimg.com/originals/9a/6f/2c/9a6f2cbd1ac25d7a00d84ccdc7b6b8b0.png",
+      "img2": "https://www.brides.com/thmb/C-EIdkTh3mdDgnAgeo_LJbMK2_E=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/manly-bands-standard-line-the-screamer-14177893482573_610x2x-d6d95d259a0b4928adb25602595980f4.png",
+      "price": "$66",
+      "category": "ring"
+    },
+    {
+      "pname": "ring4",
+      "img1": "https://freepngimg.com/thumb/jewellery/26833-2-jewellery-ring-transparent-image.png",
+      "img2": "https://www.pngarts.com/files/3/Wedding-Ring-PNG-High-Quality-Image.png",
+      "price": "$66",
+      "category": "ring"
+    },
+    {
+      "pname": "cap1",
+      "img1": "https://www.pngall.com/wp-content/uploads/5/Boy-Cap-PNG-Free-Download.png",
+      "img2": "https://pngimg.com/uploads/cap/cap_PNG5682.png",
+      "price": "$77",
+      "category": "cap"
+    },
+    {
+      "pname": "cap2",
+      "img1": "https://pngimg.com/uploads/cap/cap_PNG5677.png",
+      "img2": "https://www.freepnglogos.com/uploads/cap-png/download-baseball-cap-png-image-png-image-pngimg-4.png",
+      "price": "$77",
+      "category": "cap"
+    },
+    {
+      "pname": "cap3",
+      "img1": "https://i.pinimg.com/originals/5d/0c/aa/5d0caa7069dbe807dc0ffd19d897ab59.png",
+      "img2": "https://www.pngall.com/wp-content/uploads/5/Black-Cap-PNG-Image.png",
+      "price": "$77",
+      "category": "cap"
+    },
+    {
+      "pname": "cap4",
+      "img1": "https://www.pngarts.com/files/4/Baseball-Cap-PNG-Image.png",
+      "img2": "https://www.freepnglogos.com/uploads/cap-png/cap-new-caps-png-download-for-picsart-png-download-nsb-7.png",
+      "price": "$77",
+      "category": "cap"
+    }
+  ]
+}

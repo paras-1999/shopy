@@ -140,3 +140,42 @@ a {
   border-radius: 20px !important;
   font-family: 'Bebas Neue', cursive;
 }
+
+.outer {
+  display: block;
+  width: 80%;
+  height: 250px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.inner {
+  width: 600px;
+  height: 250px;
+  cursor: pointer;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: left, right;
+  background-size: 290px 180px;
+}
+
+.outer:hover .inner,
+.outer:focus .inner {
+  animation: swap 7s linear infinite;
+}
+
+
+@keyframes swap {
+  0% {
+    transform: translate3d(0, 0, 0)
+  }
+
+  50% {
+    transform: translate3d(-320px, 0, 0)
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0)
+  }
+}

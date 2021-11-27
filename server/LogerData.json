@@ -5,6 +5,12 @@
       "email": "paras@gmail.com",
       "password": "paras@123",
       "id": 1
+    },
+    {
+      "name": "jeff",
+      "email": "jeff@gmail.com",
+      "password": "jeff@123",
+      "id": 2
     }
   ],
   "products": [
@@ -38,7 +44,7 @@
     },
     {
       "pname": "watch1",
-      "img1": "https://static.wixstatic.com/media/2cd43b_70674f11a01e43f19366ee72aee4b8bb~mv2.png/v1/fill/w_320,h_507,q_90/2cd43b_70674f11a01e43f19366ee72aee4b8bb~mv2.png",
+      "img1": "https://www.pngmart.com/files/13/Smartwatch-PNG-Image.png",
       "img2": "https://pngimg.com/uploads/watches/watches_PNG9876.png",
       "price": "$55",
       "category": "watch"
@@ -80,7 +86,7 @@
     },
     {
       "pname": "ring3",
-      "img1": "https://i.pinimg.com/originals/9a/6f/2c/9a6f2cbd1ac25d7a00d84ccdc7b6b8b0.png",
+      "img1": "https://static.wikia.nocookie.net/middleearthshadowofmordor7723/images/d/d4/One_Ring_PNG.png/revision/latest?cb=20140804102602",
       "img2": "https://www.brides.com/thmb/C-EIdkTh3mdDgnAgeo_LJbMK2_E=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/manly-bands-standard-line-the-screamer-14177893482573_610x2x-d6d95d259a0b4928adb25602595980f4.png",
       "price": "$66",
       "category": "ring"
